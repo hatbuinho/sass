@@ -1,9 +1,11 @@
-@import "./abstracts/variables";
+@import "./Abstracts/variables";
+// @import "./Abstracts/mixins";
 
-@import "./base/base";
-@import "./base/utilies";
-@import "./layout/grid";
-@import "./components/card";
-@import "./components/buttons";
-
-@import "./pages/home";
+@import "./Base/base";
+@import "./Base/utilies";
+@import './Base/typography';
+@import "./Layout/grid";
+@import "./Components/card";
+@import "./Components/buttons";
+@import './Components/testimonials';
+@import "./Pages/home";
