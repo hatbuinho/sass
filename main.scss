@@ -1,11 +1,10 @@
-@import "./Abstracts/variables";
-// @import "./Abstracts/mixins";
+@import "./Abstracts/main";
 
-@import "./Base/base";
-@import "./Base/utilies";
-@import './Base/typography';
+@import 'Base/main';
+
 @import "./Layout/grid";
 @import "./Components/card";
 @import "./Components/buttons";
 @import './Components/testimonials';
+
 @import "./Pages/home";

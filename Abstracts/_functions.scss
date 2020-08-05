@@ -1,3 +1,11 @@
 @function color($color-name){
   @return map-get($map: $color, $key: $color-name);
 }
+
+@function map-deep-get($map, $keys...) {
+  @each $key in $keys {
+      $map: map-get($map, $key);
+  }
+  @return $map;
+}
+
