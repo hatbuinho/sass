@@ -1,5 +1,4 @@
 // @import '../Vendors/bootstrap/type';
-@import '../Abstracts/variables';
 // Typography
 
 .h1,
@@ -16,32 +15,6 @@
   letter-spacing: 1px;
 }
 
-// .h1 {
-//   font-size: map-deep-get($headings, "sizes", "h1-font-size");
-// }
-
-// .h2 {
-//   font-size: map-deep-get($headings, "sizes", "h2-font-size");
-// }
-// .h3 {
-//   font-size: map-deep-get($headings, "sizes", "h3-font-size");
-//   @include media(">desktop") {
-//     font-size: 22px;
-//     line-height: 24px;
-//   }
-// }
-
-// .h4 {
-//   font-size: map-deep-get($headings, "sizes", "h4-font-size");
-// }
-
-// .h5 {
-//   font-size: map-deep-get($headings, "sizes", "h5-font-size");
-// }
-
-// .h6 {
-//   font-size: map-deep-get($headings, "sizes", "h6-font-size");
-// }
 h1, .h1 { font-size: $h1-font-size; }
 h2, .h2 { font-size: $h2-font-size; }
 h3, .h3 { font-size: $h3-font-size; }
