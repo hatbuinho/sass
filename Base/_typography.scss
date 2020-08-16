@@ -9,10 +9,10 @@
 .h5,
 .h6,
 .h {
-  font-family: map-deep-get($headings, "fonts", "headings-font-family");
+  font-family: inherit;
   font-weight: bold;
   margin: 0 0 0.5em;
-  color: map-deep-get($headings, "fonts", "headings-color");
+  color: inherit;
   letter-spacing: 1px;
 }
 

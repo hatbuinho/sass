@@ -1,21 +1,21 @@
-.grid-container {
-  padding: 5rem 0 5rem 0;
-  margin-bottom: 3rem;
-
+main {
+  background-color: white;
 }
 
-
-.section-testimonials{
-  position: relative;
-  padding: 2rem ;
-  margin-bottom: 3rem;
-  
+.feature {
+  //
 }
 
-.section-font-awesome{
-  position: relative;
-  padding: 2rem ;
-  margin-bottom: 3rem;
-  background-color: #eeeeee;
-  overflow: hidden;
+.primary {
+  padding-top: 1.25rem;
+  border-top: 1px solid deep-get($color, border, primary);
+
+  &__content {
+    flex: 1 0 750px;
+
+  }
+
+  &__sidebar {
+    flex: 1 0 360px;
+  }
 }

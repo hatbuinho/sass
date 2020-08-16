@@ -1,11 +1,10 @@
-@function color($color-name){
-  @return map-get($map: $color, $key: $color-name);
+@function weight($font-weight-name) {
+  @return map-get($font-weight, $font-weight-name);
 }
 
-@function map-deep-get($map, $keys...) {
+@function deep-get($map, $keys...) {
   @each $key in $keys {
-      $map: map-get($map, $key);
+    $map: map-get($map, $key);
   }
   @return $map;
 }
-

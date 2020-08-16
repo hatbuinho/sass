@@ -1,11 +1,9 @@
-@import "./Abstracts/global";
+@import "./Abstracts/_global";
 
-@import 'Base/global';
+@import "Base/_global";
 
-// @import "./Layout/grid";
+@import "./Layout/_global";
 
-// @import "./Components/card";
-// @import "./Components/buttons";
-// @import './Components/testimonials';
+@import "./Components/_global";
 
 @import "./Pages/home";
